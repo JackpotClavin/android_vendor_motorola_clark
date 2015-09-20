@@ -176,5 +176,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/motorola/clark/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/motorola/clark/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/motorola/clark/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml
+    vendor/motorola/clark/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
+    vendor/motorola/clark/proprietary/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat:system/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat \
+    vendor/motorola/clark/proprietary/etc/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin \
+    vendor/motorola/clark/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko
 
