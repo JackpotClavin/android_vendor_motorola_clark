@@ -429,4 +429,30 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/clark/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/motorola/clark/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/motorola/clark/proprietary/bin/perfd:system/bin/perfd
+    vendor/motorola/clark/proprietary/bin/perfd:system/bin/perfd \
+    vendor/motorola/clark/proprietary/etc/firmware/florida-dsp2-aov-frontend.wmfw:system/etc/firmware/florida-dsp2-aov-frontend.wmfw \
+    vendor/motorola/clark/proprietary/etc/firmware/florida-dsp3-aov-control.wmfw:system/etc/firmware/florida-dsp3-aov-control.wmfw \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.music.config:system/etc/firmware/left.tfa9890.music.config \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.music.eq:system/etc/firmware/left.tfa9890.music.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.ringtone.config:system/etc/firmware/left.tfa9890.ringtone.config \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.ringtone.eq:system/etc/firmware/left.tfa9890.ringtone.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.speaker:system/etc/firmware/left.tfa9890.speaker \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.voice.config:system/etc/firmware/left.tfa9890.voice.config \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890.voice.eq:system/etc/firmware/left.tfa9890.voice.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_music_table.preset:system/etc/firmware/left.tfa9890_music_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_n1b12.patch:system/etc/firmware/left.tfa9890_n1b12.patch \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_ringtone_table.preset:system/etc/firmware/left.tfa9890_ringtone_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.music.config:system/etc/firmware/right.tfa9890.music.config \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.music.eq:system/etc/firmware/right.tfa9890.music.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.ringtone.config:system/etc/firmware/right.tfa9890.ringtone.config \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.ringtone.eq:system/etc/firmware/right.tfa9890.ringtone.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.speaker:system/etc/firmware/right.tfa9890.speaker \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.voice.config:system/etc/firmware/right.tfa9890.voice.config \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890.voice.eq:system/etc/firmware/right.tfa9890.voice.eq \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_music_table.preset:system/etc/firmware/right.tfa9890_music_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_n1b12.patch:system/etc/firmware/right.tfa9890_n1b12.patch \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_n1c2.patch:system/etc/firmware/right.tfa9890_n1c2.patch \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_ringtone_table.preset:system/etc/firmware/right.tfa9890_ringtone_table.preset \
+    vendor/motorola/clark/proprietary/etc/firmware/right.tfa9890_voice_table.preset:system/etc/firmware/right.tfa9890_voice_table.preset \
