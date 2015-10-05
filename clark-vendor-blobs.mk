@@ -16,6 +16,9 @@
 
 #Prebuilt libraries that are needed to build open-source libraries
 
+PRODUCT_COPY_FILES := \
+    vendor/motorola/clark/proprietary/vendor/lib64/libtime_genoff.so:obj/lib/libtime_genoff.so
+
 PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
@@ -412,4 +415,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/motorola/clark/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/motorola/clark/proprietary/bin/loc_launcher:system/bin/loc_launcher
+    vendor/motorola/clark/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/motorola/clark/proprietary/bin/time_daemon:system/bin/time_daemon
