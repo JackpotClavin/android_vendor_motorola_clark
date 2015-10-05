@@ -432,4 +432,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/clark/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/motorola/clark/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/motorola/clark/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so
+    vendor/motorola/clark/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/motorola/clark/proprietary/etc/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Signed_configdata.ncd:system/etc/firmware/BCM20795A2_001.003.025.0005.0035_Generic_I2C_NCD_Signed_configdata.ncd
