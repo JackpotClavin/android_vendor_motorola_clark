@@ -17,7 +17,8 @@
 #Prebuilt libraries that are needed to build open-source libraries
 
 PRODUCT_COPY_FILES := \
-    vendor/motorola/clark/proprietary/vendor/lib64/libtime_genoff.so:obj/lib/libtime_genoff.so
+    vendor/motorola/clark/proprietary/vendor/lib64/libtime_genoff.so:obj/lib/libtime_genoff.so \
+    vendor/motorola/clark/proprietary/vendor/lib/libtime_genoff.so:obj_arm/lib/libtime_genoff.so
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
