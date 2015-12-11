@@ -435,9 +435,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/clark/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/motorola/clark/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
     vendor/motorola/clark/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-    vendor/motorola/clark/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
-    vendor/motorola/clark/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/motorola/clark/proprietary/lib64/libxml2.so:system/lib64/libxml2.so \
-    vendor/motorola/clark/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/motorola/clark/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/motorola/clark/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so
+    vendor/motorola/clark/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+    vendor/motorola/clark/proprietary/lib64/libbson.so:system/lib64/libbson.so \
+    vendor/motorola/clark/proprietary/lib/libbson.so:system/lib/libbson.so
